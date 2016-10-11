@@ -17,7 +17,8 @@ If your Caddyfile is within the root of your site, don't worry. Caddy will respo
 
 ### Syntax
 
-The Caddyfile always starts with the address of the site to serve:
+The Caddyfile consists of multiple (1 or more) virtual host configurations.
+Each host configuration must start with the address of the site to serve:
 
 <code class="block"><span class="hl-vhost">localhost:2020</span></code>
 
